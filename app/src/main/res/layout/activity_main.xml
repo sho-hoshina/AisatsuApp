@@ -5,23 +5,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
-    <TimePicker
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/timePicker1"/>
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="更新"
-        android:id="@+id/btn1"/>
+        android:text="TimePickerDialog"
+        android:id="@+id/btnTimePickerDialog"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="あいさつ"
-        android:id="@+id/txt1"
-        />
+        android:id="@+id/txt1" />
 
 </LinearLayout>
